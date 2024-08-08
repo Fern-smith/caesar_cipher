@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Caesar's Ciper App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<script src="index.js"></script>  
+<div>
+    <div class = "container">
+        <img class="bg_img" src="image.png" alt="bgimg">
+        <h1> Caesar's Cipher Secret Code</h1>
+        <div id ="app-container"> 
+           <p> Please input your text that you would like to encrypt and decrypt. </p>
+           <textarea name ="" id="text"></textarea>
+        </div>
+        <div id="shift-container">
+            <label id="shiftLabel">Shift Values : 
+                <input id ="shiftValue" type="number" value='1' min="1" max ='50'></input>
+           </label> 
+        </div>
+        <div id="buttons-container">
+            <button onclick="encrypt()"> Encrypt </button>
+            <button onclick="decrypt()"> Decrypt </button>
+        </div>
+        <div id="output"></div>
+        <div id="profile">
+            <a href="https://www.linkedin.com/in/chinabha-smith/"> Created by Fern Smith - check my linkedin here! </a> 
+        </div>
+    </div>  
+</body>
+</html>
